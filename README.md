@@ -22,3 +22,12 @@ RUN;
 ### Difference between engine and PROC 
 ![Screenshot from 2021-09-22 19-23-15](https://user-images.githubusercontent.com/33058608/134356915-ff9c89c7-3982-4ae7-83e2-7d2fbb036c05.png)
 
+### querying 
+Add a new WHERE statement to print storms that begin with the letter Z. 
+
+```SAS
+proc print data=pg1.storm_summary(obs=50);
+   *commented WHERE statements;
+   where name like "Z%";
+run;
+```
