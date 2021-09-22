@@ -31,3 +31,10 @@ proc print data=pg1.storm_summary(obs=50);
    where name like "Z%";
 run;
 ```
+### Macro Variables 
+
+```SAS
+%LET macro_variable=value;
+*how to use;
+&macro_variable
+```
