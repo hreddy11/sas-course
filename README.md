@@ -38,3 +38,40 @@ run;
 *how to use;
 &macro_variable
 ```
+
+### Common Summary Functions for Creating Columns
+SAS has a collection of summary functions that calculate summary statistics. Each of these functions can have an unlimited number of arguments, and each argument is either a numeric constant or numeric column in the data. The function calculates the summary statistic from the values of the arguments for each row in the data.  
+
+For these summary functions, if any of the input values are missing, the missing value or values are ignored, and the calculation is based on the known values.
+
+Common Numeric Functions |What it Does
+
+SUM (num1, num2, ...)    |Returns the sum of nonmissing arguments.
+
+MEAN (num1, num2, ...)
+
+Returns the arithmetic mean (average) of nonmissing arguments.
+
+MEDIAN (num1, num2, ...)
+
+Returns the median value of nonmissing arguments.
+
+RANGE (num1, num2, ...)
+
+Returns the range of the nonmissing values.
+
+MIN (num1, num2, ...)
+
+Returns the smallest nonmissing value from a list of arguments.
+
+MAX (num1, num2, ...)
+
+Returns the largest value from a list of arguments.
+
+N (num1, num2, ...)
+
+Returns the number of nonmissing numeric values.
+
+NMISS (num1, num2, ...)
+
+Returns the number of null and SAS missing numeric values. 
