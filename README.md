@@ -75,3 +75,79 @@ Returns the number of nonmissing numeric values.
 NMISS (num1, num2, ...)
 
 Returns the number of null and SAS missing numeric values. 
+
+
+### Common Character Functions for Creating Columns
+SAS has many functions you can use to manipulate character columns. The arguments include one or more character columns in your data. These are a few of the many character functions you can use: 
+
+Character Function
+
+What it Does
+
+UPCASE (char)  LOWCASE(char) 
+
+Changes letters in a character string to uppercase or lowercase
+
+PROPCASE (char,<delimiters>) 
+
+Changes the first letter of each word to uppercase and other letters to lowercase
+
+CATS (char1, char2, ...)
+
+Concatenates character strings and removes leading and trailing blanks from each argument
+
+SUBSTR (char, position, <length>)
+
+Returns a substring from a character string
+
+	
+### Common Date Functions for Creating Columns
+SAS date functions are incredibly helpful for creating and manipulating SAS dates.  
+
+These functions extract information from the SAS date column or value provided in the argument:
+
+Date Function
+
+What it Does
+
+MONTH (SAS-date)
+
+ Returns a number from 1 through 12 that represents the month
+
+YEAR (SAS-date)
+
+ Returns the four-digit year
+
+DAY (SAS-date)
+
+ Returns a number from 1 through 31 that represents the day of the month
+
+WEEKDAY (SAS-date)
+
+ Returns a number from 1 through 7 that represents the day of the week (Sunday=1)
+
+QTR (SAS-date)
+
+ Returns a number from 1 through 4 that represents the quarter
+
+These functions enable you to create SAS date values from the arguments.
+
+ 
+
+Date Function
+
+What it Does
+
+TODAY () 
+
+Returns the current date as a numeric SAS date value (no argument is required because the function reads the system clock)
+
+MDY (month, day, year)
+
+ Returns a SAS date value from numeric month, day, and year values
+
+YRDIF (startdate, enddate, 'AGE')
+
+ Calculates a precise age between two dates
+
+
