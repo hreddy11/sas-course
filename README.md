@@ -189,3 +189,27 @@ COMPRESS (string <, characters>)
 STRIP (string)
 
 Returns a character string with leading and trailing blanks removed.
+	
+	
+### Identifying Character Positions
+These functions return a numeric value that identifies the location of selected characters
+
+Function
+
+What it Does
+
+LENGTH (string)
+
+Returns the length of a non-blank character string, excluding trailing blanks; returns 1 for a completely blank string.
+
+ANYDIGIT (string)
+
+Returns the first position at which a digit is found in the string.
+
+ANYALPHA (string)
+
+Returns the first position at which an alpha character is found in the string.
+
+ANYPUNCT (string)
+
+Returns the first position at which punctuation character is found in the string.
