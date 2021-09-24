@@ -169,3 +169,23 @@ Returns the largest integer that is less than or equal to the argument.
 INT (number)
 
 Returns the integer value.
+
+	
+### Removing Characters from a String
+These functions can be used to remove characters from a string.
+
+Function
+
+What it Does
+
+COMPBL (string)
+
+Returns a character string with all multiple blanks in the source string converted to single blanks.
+
+COMPRESS (string <, characters>)
+
+ Returns a character string with specified characters removed from the source string.
+
+STRIP (string)
+
+Returns a character string with leading and trailing blanks removed.
