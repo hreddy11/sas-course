@@ -213,3 +213,23 @@ Returns the first position at which an alpha character is found in the string.
 ANYPUNCT (string)
 
 Returns the first position at which punctuation character is found in the string.
+	
+	
+### Building Character Strings
+These functions can be used to combine strings into a single character value. The arguments can be either character or standard numeric values.
+
+Function
+
+What it Does
+
+CAT (string1, ... stringn)
+
+Concatenates strings together, does not remove leading or trailing blanks.
+
+CATS (string1, ... stringn)
+
+Concatenates strings together, removes leading or trailing blanks from each string.
+
+CATX ('delimiter', string1, ... stringn)
+
+Concatenates strings together, removes leading or trailing blanks from each string, and inserts the delimiter between each string.
