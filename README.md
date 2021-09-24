@@ -151,3 +151,21 @@ YRDIF (startdate, enddate, 'AGE')
  Calculates a precise age between two dates
 
 
+### Using Numeric Functions to Change Precision
+These functions can be used to truncate decimal values.
+
+Function
+
+What it Does
+
+CEIL (number)
+
+Returns the smallest integer that is greater than or equal to the argument.
+
+FLOOR (number)
+
+Returns the largest integer that is less than or equal to the argument.
+
+INT (number)
+
+Returns the integer value.
